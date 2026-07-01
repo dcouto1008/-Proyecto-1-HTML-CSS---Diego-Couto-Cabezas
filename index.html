@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio | Diego Couto</title>
+
+    <meta name="description"
+        content="Portfolio personal de Diego Couto. Desarrollo web, proyectos y contacto.">
+    <meta name="keywords"
+        content="portfolio, desarrollador web, html, css, programación, frontend">
+    <meta name="author" content="Diego Couto">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container nav-container">
+            <h1 class="logo">DC</h1>
+
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="#about">Sobre mí</a></li>
+                    <li><a href="#portfolio">Proyectos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h2>Hola, soy Diego Couto</h2>
+            <p>
+                Desarrollador web apasionado por crear experiencias digitales
+                modernas, funcionales y visualmente atractivas.
+            </p>
+
+            <a href="#portfolio" class="btn">
+                Ver proyectos
+            </a>
+        </div>
+    </section>
+
+    <main>
+
+        <!-- SOBRE MI -->
+        <section id="about" class="about">
+            <div class="container">
+
+                <h2>Sobre mí</h2>
+
+                <p>
+                    Soy un apasionado del desarrollo web y la tecnología.
+                    Disfruto aprendiendo nuevas herramientas y creando
+                    proyectos que combinan diseño, funcionalidad y una
+                    excelente experiencia de usuario.
+                </p>
+
+                <p>
+                    Mi objetivo es seguir creciendo como desarrollador,
+                    participando en proyectos innovadores y enfrentando
+                    nuevos retos cada día.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- PORTFOLIO -->
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+
+                <h2>Mis proyectos</h2>
+
+                <div class="projects-grid">
+
+                    <article class="card">
+                        <img src="https://picsum.photos/600/400?random=1"
+                            alt="Proyecto aplicación web">
+                        <h3>INTERMODULAR</h3>
+                        <p>
+                            Desarrollo de una aplicación web tipo catálogo de móviles donde se unifican los contenidos de todas las asignaturas de 1º de DAW.
+La aplicación permite consultar y gestionar móviles con información como características, precio e imágenes, aplicando operaciones CRUD y conexión con base de datos.
+                        </p>
+                    </article>
+
+                    <article class="card">
+                        <img src="https://picsum.photos/600/400?random=2"
+                            alt="Proyecto ecommerce">
+                        <h3>Agente MCP de Extracción y Validación de Documentos de Identidad</h3>
+                        <p>
+                            Desarrollo de un sistema inteligente capaz de extraer y validar automáticamente datos de documentos oficiales españoles como DNI, pasaporte y NIE/TIE a partir de imágenes.
+                        </p>
+                    </article>
+
+                    <article class="card">
+                        <img src="https://picsum.photos/600/400?random=3"
+                            alt="Proyecto portfolio">
+                        <h3>Implementación de un servidor MCP</h3>
+                        <p>
+                            Desarrollo de un sistema inteligente capaz de extraer y validar automáticamente datos de documentos oficiales españoles como DNI, pasaporte y NIE/TIE a partir de imágenes.
+                        </p>
+                    </article>
+
+                    <article class="card">
+                        <img src="https://picsum.photos/600/400?random=4"
+                            alt="Proyecto aplicación móvil">
+                        <h3>Servidor MCP para Detección Forense de Imágenes</h3>
+                        <p>
+                            Desarrollo de un servidor MCP para verificar la autenticidad de documentos oficiales de la Agencia Tributaria española mediante Código Seguro de Verificación (CSV).
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+        <section id="contact" class="contact">
+            <div class="container">
+
+                <h2>Contacto</h2>
+
+                <form>
+
+                    <input
+                        type="text"
+                        placeholder="Nombre"
+                        required>
+
+                    <input
+                        type="email"
+                        placeholder="Email"
+                        required>
+
+                    <textarea
+                        rows="6"
+                        placeholder="Escribe tu mensaje..."
+                        required></textarea>
+
+                    <button type="submit">
+                        Enviar mensaje
+                    </button>
+
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>© 2026 Diego Couto - Todos los derechos reservados.</p>
+
+            <div class="social-links">
+                <a href="https://github.com/dcouto1008" target="_blank">
+                    GitHub
+                </a>
+
+                <a href="#">
+                    LinkedIn
+                </a>
+
+                <a href="#">
+                    Twitter
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
